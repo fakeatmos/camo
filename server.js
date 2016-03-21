@@ -243,7 +243,7 @@
     var base, dest_url, encoded_url, error, hmac, hmac_digest, query_digest, ref, ref1, transferredHeaders, url, url_type, user_agent;
     if (req.method !== 'GET' || req.url === '/') {
       resp.writeHead(200, default_security_headers);
-      return resp.end('hwhat');
+      return resp.end('what is happening');
     } else if (req.url === '/favicon.ico') {
       resp.writeHead(200, default_security_headers);
       return resp.end('ok');
